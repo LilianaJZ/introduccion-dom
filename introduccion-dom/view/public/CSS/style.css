@@ -1,0 +1,109 @@
+/*Se resetean los estilos por defecto*/
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+
+body{
+    width: 100%; /*Ocupe lo que alcance a ver, da igual si se pone 100% o 100vh porque pr defecto se usa el total*/
+    height: 100vh; /*vh viewport height de lo que se alcanza a ver */ /*vw viewport width*/
+    background-image: url(../img/rissoto.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 40%;
+    height: 40%;
+    display: inherit; /*Herencia*/
+    align-items: center;
+    justify-content: inherit;
+    flex-direction: column;
+    gap:10px; /*espacio entre cajas del flex */
+    backdrop-filter: blur(10px); /*Efecto de  glass en css*/
+}
+
+.form div{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form div label{
+    color: white;
+    letter-spacing: 2px; /* espaciado entre las letras del label y los inputs*/
+}
+
+.form div input{
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    /*text-transform: uppercase  para transformar las letras en mayúsculas*/
+}
+
+
+.form button{
+    width: 40%;
+    margin-top: 20px;
+    background-color: white;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+unidades relativas y absolutas
+    relativas:
+    absolutas: 
+    
+*/
+
+/*
+RECURSOS MULTIMEDIA
+-------------------
+
+Imagenes:
+www.freepik.es
+www.pixabay.com
+
+
+Iconos:
+www.icons8.es
+
+Ai:
+leonaerdodavinci
+*/
